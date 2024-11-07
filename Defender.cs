@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace IPI_FootHeritage_2024_2025
 {
-    public class Defender : Player
+    public class Defender : Player, I_PincerDefense
     {
         public Defender(string name, int speed = 50, int agility = 50, int strength = 50, int reflexs = 50, int luck = 50) : base(name, speed, agility, strength, reflexs, luck)
         {
         }
+
+        private Player helper;
+
+        public Player Helper { get => helper; set => helper = value; }
 
         protected override int CalculateTackleScore()
         {

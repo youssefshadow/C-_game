@@ -24,7 +24,7 @@ namespace IPI_FootHeritage_2024_2025
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             base.MyLog(value);
-            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }

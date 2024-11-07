@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IPI_FootHeritage_2024_2025
 {
-    public class Player
+    public abstract class Player
     {
         public string Name { get; private set; }
         public int Speed { get; private set; }
@@ -113,12 +113,15 @@ namespace IPI_FootHeritage_2024_2025
         public bool TryToIntercept(int shootScore, List<Player> opponents)
         {
             bool interception = false;
-            foreach (Player opponent in opponents)
+            if (opponents != null)
             {
-                interception = opponent.Intercept(shootScore);
-                if (interception)
+                foreach (Player opponent in opponents)
                 {
-                    return true;
+                    interception = opponent.Intercept(shootScore);
+                    if (interception)
+                    {
+                        return true;
+                    }
                 }
             }
             return false;
@@ -126,7 +129,14 @@ namespace IPI_FootHeritage_2024_2025
 
         protected int CalculateShootScore()
         {
-            return Strength + Speed + GetLuck();
+            int result = Strength + Speed + GetLuck();
+            if (this is I_Opportunist)
+            {
+                int newLuck = GetLuck();
+                MyLog($"{Name} est opportuniste, il a plus de chances de marquer. scoreshoot {result} -> {result + newLuck}");
+                result += newLuck;
+            }
+            return result;
         }
 
         public void Tackle(int dribbleScore, Player opponent)
@@ -145,7 +155,12 @@ namespace IPI_FootHeritage_2024_2025
 
         protected virtual int CalculateTackleScore()
         {
-            return Strength + Speed + GetLuck();
+            int result = Strength + Speed + GetLuck();
+            if (this is I_PincerDefense pincer)
+            {
+                result += pincer.HelpValue(MyLog);
+            }
+            return result;
         }
 
         public void Dribble(Player opponent)
@@ -157,7 +172,7 @@ namespace IPI_FootHeritage_2024_2025
 
         protected int CalculateDribbleScore()
         {
-            return  Agility + Speed + GetLuck();
+            return Agility + Speed + GetLuck();
         }
 
         public int GetLuck()

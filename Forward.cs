@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IPI_FootHeritage_2024_2025
 {
-    public class Forward : Player
+    public class Forward : Player, I_Opportunist
     {
         public Forward(string name, int speed = 50, int agility = 50, int strength = 50, int reflexs = 50, int luck = 50) : base(name, speed, agility, strength, reflexs, luck)
         {

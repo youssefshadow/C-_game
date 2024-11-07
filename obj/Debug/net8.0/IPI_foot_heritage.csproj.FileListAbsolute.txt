@@ -12,3 +12,4 @@ C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\refint\IPI_foot_
 C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.pdb
 C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\ref\IPI_foot_heritage.dll
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.sourcelink.json
