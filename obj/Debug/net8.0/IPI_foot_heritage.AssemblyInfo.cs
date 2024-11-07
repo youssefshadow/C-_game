@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPI_foot_heritage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d24173f40f55049688b35771f6caf79531f3fb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86c0280bc3960213391031802fdfb08192213f95")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPI_foot_heritage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPI_foot_heritage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

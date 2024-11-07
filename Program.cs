@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-           
+            //Player olive = new Player("Olive");
+            Forward olive = new Forward("Olive");
             Midfielder marc = new Midfielder("Marc");
             Defender bruce = new Defender("Bruce");
             Forward benjamin = new Forward("Benjamin");
@@ -25,3 +26,5 @@
         }
     }
 }
+
+
