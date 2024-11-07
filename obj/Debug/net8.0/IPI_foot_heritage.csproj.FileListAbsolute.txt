@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\bin\Debug\net8.0\IPI_foot_heritage.exe
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\bin\Debug\net8.0\IPI_foot_heritage.deps.json
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\bin\Debug\net8.0\IPI_foot_heritage.runtimeconfig.json
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\bin\Debug\net8.0\IPI_foot_heritage.dll
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\bin\Debug\net8.0\IPI_foot_heritage.pdb
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.dll
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\refint\IPI_foot_heritage.dll
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.pdb
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\IPI_foot_heritage.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\IPI_foot_heritage\obj\Debug\net8.0\ref\IPI_foot_heritage.dll
